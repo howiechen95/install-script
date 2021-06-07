@@ -1,5 +1,5 @@
 [Hexo 博客部署到腾讯云教程 - 云+社区 - 腾讯云](https://cloud.tencent.com/developer/article/1140005)
-
+[部署 | Hexo](https://hexo.io/zh-cn/docs/one-command-deployment)
 
 ```
 yum install -y curl-devel expat-devel gettext-devel openssl-devel zlib-devel
