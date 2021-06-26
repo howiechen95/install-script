@@ -1,1 +1,1 @@
-# some scripts
+# scripts

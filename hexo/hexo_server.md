@@ -42,11 +42,18 @@ chmod -R 755 /home/hexoBlog/
 ```
 
 ```
+cd 你的 hexo 目录，生成对应的 public 网站目录
+hexo clean
+hexo generate
+hexo deploy
+```
+
+```
 vim /etc/nginx/nginx.conf
 
 将root值修改
 # root         /usr/share/nginx/html;
-root            /home/hexoBlog;
+root            /home/hexoBlog/public;
 ```
 
 ```
