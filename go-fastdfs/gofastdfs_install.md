@@ -1,0 +1,1 @@
+[安装](https://sjqzhang.github.io/go-fastdfs/install.html#docker)
