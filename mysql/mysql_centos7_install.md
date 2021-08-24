@@ -1,3 +1,5 @@
+### 在centos7试了下，安装的是 mysql 5.6
+
 安装前，我们可以检测系统是否自带安装 MySQL:
 
 ```shell
@@ -11,6 +13,15 @@ rpm -qa | grep mysql
 rpm -e mysql
 # 强力删除模式，如果使用上面命令删除时，提示有依赖的其它文件，则用该命令可以对其进行强力删除
 rpm -e --nodeps mysql
+```
+
+下面是我自己卸载一次的过程
+```shell
+rpm -e --nodeps mysql-community-release
+rpm -e --nodeps mysql-community-client
+rpm -e --nodeps mysql-community-libs
+rpm -e --nodeps mysql-community-server
+rpm -e --nodeps mysql-community-common
 ```
 
 安装 MySQL：
