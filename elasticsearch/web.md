@@ -4,7 +4,7 @@
 git clone https://github.com/mobz/elasticsearch-head
 ```
 
-安装插件
+1. 安装插件
 ```
 cd  elasticsearch-head
 npm install -g grunt-cli
@@ -13,6 +13,12 @@ npm install
 启动
 ```
 grunt server
+```
+
+2. docker 安装
+```
+cd  elasticsearch-head
+docker build -t mobz/elasticsearch-head:5-alpine -f Dockerfile-alpine .
 ```
 
 
