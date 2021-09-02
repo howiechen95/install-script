@@ -63,3 +63,45 @@ docker start kibana
 启动以后可以打开浏览器输入http://localhost:5601就可以打开kibana的界面了。
 
 
+
+<hr><br>
+
+# > [docker安装其他常用软件](https://www.cxyzjd.com/article/qq_35641192/81836818)
+
+拉取镜像：
+```
+docker pull elasticsearch
+```
+未配置加速可以：
+```
+docker pull registry.docker-cn.com/library/elasticsearch
+```
+
+查看安装情况：
+```
+docker images
+```
+
+```
+REPOSITORY	TAG	IMAGE ID	CREATED	VIRTUAL SIZE
+elasticsearch	latest	f28f9f9d9ae3	4 days ago	485.8 MB
+rabbitmq	3.6-management	3660cf2e0a4e	2 weeks ago	148.8 MB
+```
+
+
+部署与启动ES：注意ES启动需要2G内存，所以虚拟机测试用需要限制下内存
+```
+docker run -e ES_JAVA_OPTS="-Xms256m -Xmx256m" -d -p 9200:9200 -p 9300:9300 --name ES01 f28f9f9d9ae3
+```
+
+查看启动是否成功：
+```
+docker ps
+```
+或者访问：http://192.168.25.134:9200/
+
+之后启动与停止：
+```
+docker start ES01
+docker stop ES01
+```
