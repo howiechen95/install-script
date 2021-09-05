@@ -1,0 +1,1 @@
+> [在CentOS 7安装ElasticSearch 7.x](https://cloud.tencent.com/developer/article/1625296)
