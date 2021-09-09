@@ -60,6 +60,12 @@ discovery.seed_hosts: ["192.168.50.79"]
 cluster.initial_master_nodes: ["192.168.50.79"]
 ```
 
+```
+# 允许跨域访问
+http.cors.enabled: true
+http.cors.allow-origin: "*"
+```
+
 linux 配置
 
 需要保证端口可访问：9200、9300
