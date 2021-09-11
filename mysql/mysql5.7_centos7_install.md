@@ -29,7 +29,16 @@ sudo systemctl start mysqld.service
 sudo systemctl status mysqld.service
 ```
 
+查看初始化密码，为了加强安全性，MySQL5.7为root用户随机生成了一个密码，在error_log中，关于error_log的位置，如果安装的是RPM包，则默认是 /var/log/mysqld.log 。
+```
+cat /var/log/mysqld.log|grep root
+```
+
 ### root 设置密码
+
+```
+SET PASSWORD = PASSWORD('123456'); 
+```
 
 ```sql
 UPDATE user
@@ -78,3 +87,4 @@ mysql_upgrade  -S /var/lib/mysql/mysql.sock -uroot -p
 
 - [CentOS7安装最新版的MySQL（5.7）](https://www.huaweicloud.com/articles/0c192367ee485a4405c4b7f9ca4215cd.html)
 - [MySQL5.7创建用户时报错](https://www.cnblogs.com/liufofu/p/7722254.html)
+- [MySQL 5.7 的初始化操作](https://blog.51cto.com/professor/1783769)
