@@ -2,3 +2,5 @@
 
 [内网穿透工具nps使用教程 - Tom Huang's Blog](https://blog.tomhuang2000.com/archives/570/)
 
+
+[nps releases](https://github.com/ehang-io/nps/releases)
