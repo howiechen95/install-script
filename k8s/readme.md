@@ -1,0 +1,1 @@
+[kubernetes安装](https://zhuanlan.zhihu.com/p/46341911)
