@@ -1,0 +1,1 @@
+[Windows下安装QEMU并在qemu上安装ubuntu和debian – 天楚锐齿](http://www.max-shu.com/blog/?p=1094)
