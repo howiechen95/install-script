@@ -2,3 +2,4 @@
 [KVM虚拟机GPU直通，step by step - 机械意志](https://mechanical-consciousness.com/2020/03/20/kvm-gpu-passthrough.html)
 [libvirt-cpu分配和cpu热插拔](https://cloud.tencent.com/developer/article/1087036)
 [KVM+Qemu+Libvirt实战 - HuaToDevelop - 博客园](https://www.cnblogs.com/zhangyinhua/p/7481803.html)
+[单显卡直通Windows/MacOS+Linux - QEMU/KVM](https://www.bilibili.com/video/BV1KK4y1S7p2/)
