@@ -1,1 +1,2 @@
 [sickcodes/Docker-OSX: Run Mac in a Docker! Run near native OSX-KVM in Docker! X11 Forwarding! CI/CD for OS X!](https://github.com/sickcodes/Docker-OSX)
+[在KVM/QEMU上安装macOS、运行macOS的方法_Linux安装_云网牛站](https://ywnz.com/linuxaz/6752.html)
