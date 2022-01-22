@@ -4,3 +4,4 @@
 [KVM+Qemu+Libvirt实战 - HuaToDevelop - 博客园](https://www.cnblogs.com/zhangyinhua/p/7481803.html)
 [单显卡直通Windows/MacOS+Linux - QEMU/KVM](https://www.bilibili.com/video/BV1KK4y1S7p2/)
 [KVM是什么？一文带你快速了解 Linux KVM 虚拟化](https://www.redhat.com/zh/topics/virtualization/what-is-KVM)
+[foxlet/macOS-Simple-KVM: Tools to set up a quick macOS VM in QEMU, accelerated by KVM.](https://github.com/foxlet/macOS-Simple-KVM)
