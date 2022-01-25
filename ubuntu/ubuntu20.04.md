@@ -2,3 +2,4 @@
 [写给工程师的 Ubuntu 20.04 最佳配置指南 - 知乎](https://zhuanlan.zhihu.com/p/139305626)
 [Ubuntu 20.04 簡述環境配置&美化 | IT人](https://iter01.com/596955.html)
 [如何在 Ubuntu 20.04 上安装 KVM - 云+社区 - 腾讯云](https://cloud.tencent.com/developer/article/1657533)
+[在 Ubuntu 的 KVM 中安装 Windows 系统 | Tommy 的自留地](https://tommy.net.cn/2017/01/06/install-windows-under-ubuntu-and-kvm/)
