@@ -3,3 +3,5 @@
 [Ubuntu 20.04 簡述環境配置&美化 | IT人](https://iter01.com/596955.html)
 [如何在 Ubuntu 20.04 上安装 KVM - 云+社区 - 腾讯云](https://cloud.tencent.com/developer/article/1657533)
 [在 Ubuntu 的 KVM 中安装 Windows 系统 | Tommy 的自留地](https://tommy.net.cn/2017/01/06/install-windows-under-ubuntu-and-kvm/)
+[在KVM/QEMU上安装macOS、运行macOS的方法_Linux安装_云网牛站](https://ywnz.com/linuxaz/6752.html)
+[如何在UOS中使用KVM虚拟多个UOS系统 - 统信UOS](https://www.cnxclm.com/read-172-1.html)
