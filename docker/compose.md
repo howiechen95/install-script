@@ -3,3 +3,4 @@
 [教程 - 使用 Docker Compose 部署多容器组 ](https://docs.microsoft.com/zh-cn/azure/container-instances/tutorial-docker-compose)
 [Docker Compose编排部署微服务项目](https://blog.csdn.net/weixin_42437633/article/details/108089427)
 [使用docker-compose啟動服務時，初始化資料庫和資料(以Mysql為例)](https://www.tpisoftware.com/tpu/articleDetails/1826)
+[docker-library/mysql](https://github.com/docker-library/mysql)
